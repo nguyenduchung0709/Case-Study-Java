@@ -1,4 +1,5 @@
 import java.io.*;
+import java.util.List;
 
 public class IOFile {
     private ContactManager manager;
@@ -9,6 +10,7 @@ public class IOFile {
 
     public void writeFile(String fileName) {
         try {
+
             FileWriter fileWriter = new FileWriter(fileName);
             BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
             for (Contact contact : manager.getContacts()) {
@@ -23,7 +25,9 @@ public class IOFile {
     }
 
     public void readFile(String fileName) {
+
         try {
+            manager.getContacts().clear();
             FileReader fileReader = new FileReader(fileName);
             BufferedReader bufferedReader = new BufferedReader(fileReader);
             String line;
