@@ -40,7 +40,7 @@ public class Menu {
                 System.out.println("Enter Valid Phone Number: ");
             }
         }
-        String dateBorn = requireInput("Enter Date of Birth: ");
+        String dateBorn = requireInput("Enter Date of Birth[dd/mm/yyyy]: ");
         String group = requireInput("Enter Group: ");
         String address = requireInput("Enter Address: ");
         String gender = requireInput("Enter Gender: ");
@@ -101,7 +101,7 @@ public class Menu {
             }
         }
 
-        String newDateBorn = requireInput("Enter Date of Birth: ");
+        String newDateBorn = requireInput("Enter Date of Birth[dd/mm/yyyy]: ");
         String newGroup = requireInput("Enter Group: ");
         String newAddress = requireInput("Enter Address: ");
         String newGender = requireInput("Enter Gender: ");

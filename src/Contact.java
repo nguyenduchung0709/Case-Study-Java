@@ -82,6 +82,7 @@ public class Contact {
                 "name='" + name + '\'' +
                 ", phoneNumber='" + phoneNumber + '\'' +
                 ", dateOfBirth='" + dateOfBirth + '\'' +
+                ", group='" + group + '\'' +
                 ", address='" + address + '\'' +
                 ", gender='" + gender + '\'' +
                 ", email='" + email + '\'' +
