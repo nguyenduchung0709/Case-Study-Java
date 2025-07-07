@@ -66,6 +66,7 @@ public class ContactManager {
                 contact.setName(newName);
                 contact.setPhoneNumber(newPhone);
                 contact.setDateOfBirth(newDateOfBirth);
+                contact.setGroup(newGroup);
                 contact.setAddress(newAddress);
                 contact.setGender(newGender);
                 contact.setEmail(newEmail);
